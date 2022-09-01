@@ -13,7 +13,8 @@ console.log(a);
 
 
 const user = {
-  name: "Ura"
+  name: "Ura",
+	age : 28,
 }
 
 const name = user.name
