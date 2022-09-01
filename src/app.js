@@ -18,4 +18,4 @@ const user = {
 }
 
 const name = user.name
-const age = user.age
+const age = user.age;
