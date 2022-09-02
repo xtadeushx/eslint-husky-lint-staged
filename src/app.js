@@ -1,4 +1,4 @@
-const a = 1;
+// const a = 1;
 
 function fa(name) {
   return name;
@@ -7,15 +7,17 @@ function fa(name) {
 const x = 200;
 
 console.log(fa);
+console.log('Hi');
 console.log(x);
-console.log(window)
-console.log(a);
-
+console.log(window);
 
 const user = {
   name: 'Ura',
-	age : 28,
-}
+  age: 28,
+};
 
-const name = user.name;
-const age = user.age;
+const { name } = user;// \n
+const { age } = user;
+
+console.log(name);
+console.log(age);

@@ -6,6 +6,6 @@
     },
     "extends": ["airbnb/base", "airbnb/hooks"],
     "rules": {
-        
+        "linebreak-style":"warn"
     }
 }

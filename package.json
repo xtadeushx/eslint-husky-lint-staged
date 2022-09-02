@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ./src",
-    "lint:fix": "eslint ./src --fix"
+    "lint:fix": "eslint ./src --fix",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -23,12 +24,10 @@
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint:fix"
-    }
-  },
   "lint-staged": {
-    "*.js": "eslint"
+    "*.js": [
+      "npm run lint:fix",
+      "git add"
+    ]
   }
 }
