@@ -16,8 +16,9 @@ const user = {
   age: 28,
 };
 
-const { name } = user;// \n
+const { name } = user; // \n
 const { age } = user;
 
 console.log(name);
 console.log(age);
+fa(10);
