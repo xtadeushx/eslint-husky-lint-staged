@@ -29,9 +29,6 @@
     }
   },
   "lint-staged": {
-    "*.js": [
-      "npm run test",
-      "git add"
-    ]
+    "*.js": "eslint"
   }
 }
